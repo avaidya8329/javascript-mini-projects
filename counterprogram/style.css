@@ -1,0 +1,25 @@
+
+h1{
+    text-align: center;
+}
+.btns{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2em;
+    padding: 10px 20px;
+    background-color: hsl(240, 100%, 80%);
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.25s;
+}
+.btns:hover{
+    background-color: rgb(103, 103, 255);
+}
+#container{
+    text-align: center;
+}
+#label{
+    font-size: 10em;
+    text-align: center;
+    display: block;
+}
