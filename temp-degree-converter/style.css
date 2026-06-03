@@ -1,0 +1,41 @@
+body{
+    background-color: hsla(0, 9%, 87%, 0.625);
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+h1{
+    color: hsl(240, 56%, 46%);
+}
+/* form{
+    background-color: white;
+    width: 20em;
+} */
+
+#mytextbox{
+    width: 12.5%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    background-color: aliceblue;
+}
+
+#tofarhenheit{
+    margin-bottom: 10px;
+    
+}
+#tocelcius{
+    margin-bottom: 15px;
+
+}
+
+#mybutton{
+    background-color: hsl(0, 100%, 33%);
+    color: wheat;
+    font-size: 1.2em;
+    padding: 5px 7px;
+    cursor: pointer;
+    transition: 0.25s;
+}
+
+button:hover{
+    background-color: hsla(0, 87%, 58%, 0.915);
+}
