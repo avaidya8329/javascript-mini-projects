@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    background-image: url(Opeth.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(0, 0, 0);
+    
+}
+
+#clock-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#clock{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 5rem;
+    align-items: center;
+    backdrop-filter: blur(20px);
+    background-color: hsla(45, 97%, 52%, 0.233);
+}
+
+button{
+    font-size: 1em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: black;
+    color: white;
+    position: absolute;
+    top: 280px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 1.5em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.50s;
+}
+button:hover{
+    background-color: rgb(131, 3, 3);
+    color: black;
+}
+#stopbtn{
+    font-size: 1em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: black;
+    color: white;
+    position: absolute;
+    top: 450px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 1.5em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.50s;
+}
+#stopbtn:hover{
+    background-color: rgb(131, 3, 3);
+    color: black;
+}
