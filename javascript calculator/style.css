@@ -4,6 +4,12 @@ body{
     justify-content: center;
     display: flex;
     height: 100vh;
+    background-image:url(Opeth.jpeg);
+    /* background-color: rgba(0, 0, 0, 0.868); */
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 
@@ -12,15 +18,17 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     background-color: hsla(0, 0%, 0%, 0.64);
     border-radius: 15px;
-    max-width: 500px;
+    max-width: 690px;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.4);  
 }
 
 #display{
-    width: 92.5%;
+    width: 95%;
     padding: 20px;
     font-size: 3rem;
     text-align: right;
     border: none;
+    border-radius: 9px;
     background-color:hsla(0, 0%, 0%, 0.64);
     color: white;
 }
@@ -43,6 +51,8 @@ button{
     font-size: 2rem;
     font-weight: bold;
     cursor: pointer;
+    transition: all 0.2s ease;
+    transform: scale(0.95);
 }
 
 button:hover{
@@ -54,11 +64,13 @@ button:active{
 }
 
 .operator{
-    background-color: hsl(44, 100%, 43%);
+    /* background-color: hsl(44, 100%, 43%); */
+    background: linear-gradient(145deg, #ffb300, #ff8800);
 }
 
 .operator:hover{
-    background-color: hsl(44, 100%, 53%);
+    /* background-color: hsl(44, 100%, 53%); */
+    background: linear-gradient(145deg, #ffb300, #ff8800);
 }
 
 .operator:active{
