@@ -1,0 +1,68 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: hsl(0, 2%, 81%);
+}
+
+#myh1 {
+    font-family:Arial, Helvetica, sans-serif, sans-serif;
+    font-size: 3rem;
+    color: hsla(0, 0%, 0%, 0.723);
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    border: 5px solid black;
+    border-radius: 70px;
+    align-items: center;
+    padding: 70px;
+    background-color: white;
+}
+#clock{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+#controls button{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-right: 7px;
+    padding: 7px 14px;
+    border:none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+
+#startbtn{
+    background-color: hsla(120, 100%, 51%, 0.679);
+    color: white;
+}
+
+#startbtn:hover{
+    background-color:hsla(120, 75%, 31%, 0.679);
+}
+
+
+#stopbtn{
+    background-color: hsl(0, 92%, 57%);
+    color: white;
+}
+
+#stopbtn:hover{
+    background-color:hsl(0, 92%, 31%);
+}
+
+#resetbtn{
+    background-color: hsla(223, 100%, 50%, 0.867);
+    color: white;
+}
+
+#restbtn:hover{
+    background-color: hsla(223, 100%, 40%, 0.867);
+}
